@@ -1,0 +1,590 @@
+{
+  "nav": {
+    "brand": "Leading Sires",
+    "registry": "Registro",
+    "stallionDirectory": "Diretório de Garanhões",
+    "mareDirectory": "Diretório de Éguas",
+    "blog": "Blog",
+    "about": "Sobre",
+    "pricing": "Preços",
+    "resources": "Recursos",
+    "commercialDirectory": "Diretório Comercial",
+    "associationsRegistries": "Associações e Registros",
+    "login": "Entrar",
+    "language": "Idioma",
+    "menu": "Menu",
+    "openMenu": "Abrir menu",
+    "closeMenu": "Fechar menu"
+  },
+  "footer": {
+    "brandTitle": "Leading Sires Registry",
+    "tagline": "Plataforma de referência de garanhões de performance",
+    "breeds": "Quarter Horses | Paints | Appaloosas",
+    "regionsLine1": "Austrália | Nova Zelândia | Europa | Canadá",
+    "regionsLine2": "América do Norte e do Sul",
+    "linksHeading": "Links úteis",
+    "submitListing": "Enviar um Anúncio",
+    "contactHeading": "Fale Conosco",
+    "copyright": "© 2026 Leading Sires Registry | Os registros podem incluir garanhões ativos, históricos ou falecidos para fins de pedigree e referência.",
+    "termsOfUse": "Termos de Uso",
+    "privacyPolicy": "Política de Privacidade"
+  },
+  "stallions": {
+    "title": "Diretório de Garanhões",
+    "metaDescription": "Explore garanhões de performance — pedigree, desempenho, progênie e detalhes de reprodução no Leading Sires Registry.",
+    "noResults": "Nenhum resultado encontrado.",
+    "filters": {
+      "keywordLabel": "Busca por Palavra-chave (Garanhão)",
+      "keywordPlaceholder": "Digite o nome do garanhão...",
+      "countryLabel": "País",
+      "allCountries": "Todos os Países",
+      "breedLabel": "Raça",
+      "allBreeds": "Todas as Raças",
+      "breeds": {
+        "quarterHorse": "Quarter Horse",
+        "paint": "Paint",
+        "appaloosa": "Appaloosa"
+      },
+      "semenAvailabilityLabel": "Disponibilidade de Sêmen",
+      "allOptions": "Todas as opções",
+      "availability": {
+        "methodNotDisclosed": "Método não divulgado",
+        "fresh": "Fresco",
+        "chilled": "Refrigerado",
+        "cooled": "Resfriado",
+        "frozen": "Congelado",
+        "icsi": "ICSI",
+        "combination": "Combinação (refrigerado + congelado)",
+        "liveCover": "Monta natural"
+      },
+      "resetAll": "Limpar Todos os Filtros"
+    },
+    "bloodline": {
+      "heading": "Busca de cavalos",
+      "hint": "Pesquise pedigrees por cavalos específicos. Os resultados devem corresponder a todos os cavalos incluídos e a nenhum dos excluídos.",
+      "conditionLabel": "Cavalo {number}",
+      "remove": "Remover este cavalo",
+      "horseNameLabel": "Nome do cavalo",
+      "horseNamePlaceholder": "Buscar nome do antepassado...",
+      "generationLabel": "Geração",
+      "anyGeneration": "Qualquer geração",
+      "generationOption": {
+        "1": "1 — Pai / Mãe",
+        "2": "2 — Avós",
+        "3": "3 — Bisavós",
+        "4": "4 — Trisavós",
+        "5": "5 — Tetravós"
+      },
+      "lineLabel": "Linha",
+      "sireLine": "Lado paterno",
+      "damLine": "Lado materno",
+      "addAnother": "Adicionar outro cavalo",
+      "matchLabel": "Correspondência",
+      "include": "Incluir",
+      "exclude": "Excluir"
+    },
+    "table": {
+      "photo": "Foto",
+      "stallion": "Garanhão",
+      "pedigree": "Pedigree",
+      "breed": "Raça",
+      "disciplines": "Disciplinas",
+      "country": "País",
+      "pedigreeSeparator": "×"
+    },
+    "directoryMatch": {
+      "matchedAncestor": "Antepassado encontrado",
+      "sireLine": "Linha paterna",
+      "damLine": "Linha materna"
+    },
+    "countries": {
+      "australia": "Austrália",
+      "austria": "Áustria",
+      "brazil": "Brasil",
+      "canada": "Canadá",
+      "colombia": "Colômbia",
+      "germany": "Alemanha",
+      "italy": "Itália",
+      "mexico": "México",
+      "newZealand": "Nova Zelândia",
+      "poland": "Polônia",
+      "portugal": "Portugal",
+      "uk": "Reino Unido",
+      "usa": "EUA"
+    }
+  },
+  "mares": {
+    "title": "Diretório de Éguas",
+    "metaDescription": "Explore éguas doadoras de embriões — pedigree, desempenho, progênie e detalhes do programa de TE no Leading Sires Registry.",
+    "noResults": "Nenhum resultado encontrado.",
+    "filters": {
+      "filterHeading": "Filtrar Éguas",
+      "showing": "Mostrando {filtered} de {total} éguas",
+      "searchLabel": "Buscar",
+      "keywordPlaceholder": "Buscar por nome…",
+      "disciplineLabel": "Disciplina",
+      "allDisciplines": "Todas as disciplinas",
+      "colorLabel": "Cor",
+      "allColors": "Todas as cores",
+      "geneticProfileLabel": "Perfil genético",
+      "allGeneticProfiles": "Todos os perfis",
+      "etStatusLabel": "Status de TE",
+      "allEtStatuses": "Todos os status",
+      "etStatus": {
+        "donor": "Doadora",
+        "seasonal": "Sazonal",
+        "deceased": "Falecida"
+      },
+      "embryoAvailabilityLabel": "Disponibilidade de Embriões",
+      "allEmbryoAvailability": "Todas as opções",
+      "embryoAvailability": {
+        "fresh": "Fresco",
+        "frozen": "Congelado",
+        "both": "Fresco e Congelado"
+      }
+    }
+  },
+  "profile": {
+    "sectionNav": {
+      "overview": "Visão Geral",
+      "pedigree": "Pedigree",
+      "performance": "Performance",
+      "breedingStatistics": "Estatísticas de Reprodução",
+      "notableProgeny": "Progênie Notável",
+      "progenyRecord": "Registro de Progênie",
+      "etProgram": "Programa de TE",
+      "geneticTesting": "Testes Genéticos",
+      "colorTesting": "Testes de Pelagem",
+      "media": "Mídia"
+    },
+    "hero": {
+      "unnamedStallion": "Garanhão Sem Nome",
+      "unknownSire": "Pai Desconhecido",
+      "unknownDam": "Mãe Desconhecida",
+      "status": "Status",
+      "country": "País",
+      "registry": "Registro",
+      "registrationNumberShort": "Reg. #",
+      "yearOfBirth": "Ano de nascimento",
+      "stallionLte": "Ganhos vitalícios",
+      "height": "Altura",
+      "breed": "Raça",
+      "color": "Pelagem",
+      "disciplineCoverage": "Cobertura de disciplinas"
+    },
+    "overview": {
+      "title": "Visão Geral"
+    },
+    "breedingSummary": {
+      "title": "Resumo de Reprodução"
+    },
+    "pedigree": {
+      "title": "Pedigree",
+      "legendMale": "Macho",
+      "legendFemale": "Fêmea",
+      "legendAnnotation": "*Anotação",
+      "empty": "As informações de pedigree ainda não foram adicionadas para este garanhão.",
+      "swipeHint": "Deslize horizontalmente para ver o pedigree",
+      "scrollHint": "Role horizontalmente para ver todas as gerações",
+      "removeGeneration": "Remover geração",
+      "addGeneration": "Adicionar geração",
+      "generation": "Geração {number}",
+      "otherRegistrations": "Outros registros",
+      "showAdditionalRegistrations": "Mostrar registros adicionais",
+      "association": "Associação",
+      "country": "País",
+      "registration": "Registro"
+    },
+    "performance": {
+      "title": "Performance",
+      "showMore": "Mostrar mais performances",
+      "columns": {
+        "event": "Evento",
+        "year": "Ano",
+        "month": "Mês",
+        "discipline": "Disciplina",
+        "class": "Classe",
+        "achievement": "Conquista",
+        "score": "Pontuação",
+        "association": "Associação",
+        "level": "Nível",
+        "earnings": "Ganhos"
+      }
+    },
+    "racingRecord": {
+      "title": "Registro de Corridas",
+      "showMore": "Mostrar mais registros",
+      "summary": {
+        "careerEarnings": "Ganhos na Carreira",
+        "starts": "Partidas",
+        "firsts": "Primeiros",
+        "seconds": "Segundos",
+        "thirds": "Terceiros",
+        "speedIndex": "Índice de Velocidade"
+      },
+      "columns": {
+        "race": "Corrida",
+        "year": "Ano",
+        "track": "Pista",
+        "distance": "Distância",
+        "position": "Posição",
+        "speedIndex": "Índice de Velocidade",
+        "earnings": "Ganhos"
+      }
+    },
+    "foalCrop": {
+      "title": "Safra de potros",
+      "totalFoals": "Total de Potros",
+      "totalYears": "Total de Anos",
+      "chartAxis": "Potros",
+      "tooltipYear": "Ano {year}",
+      "tooltipFoals": "Potros"
+    },
+    "breedingDetails": {
+      "title": "Detalhes de Reprodução",
+      "availability": "Disponibilidade de Reprodução",
+      "studFee": "Taxa de Cobertura",
+      "guarantees": "Garantias de Reprodução"
+    },
+    "etDetails": {
+      "title": "Programa de TE",
+      "contactOwnerNote": "Para detalhes completos do programa, incluindo arranjos de éguas receptoras, entre em contato diretamente com o proprietário",
+      "status": "Status",
+      "clinic": "Clínica de Reprodução",
+      "embryoFee": "Taxa de Embrião",
+      "flushHistory": "Resumo do Histórico de Coletas",
+      "availability": "Disponibilidade de Cobertura",
+      "availabilityValues": {
+        "fresh": "Fresco",
+        "frozen": "Congelado"
+      },
+      "lastVerified": "Última Verificação",
+      "unverifiedBadge": "Não verificado nos últimos 12 meses",
+      "countryAvailability": "Disponibilidade por país",
+      "internationalAvailability": "Disponibilidade internacional"
+    },
+    "breedingStatistics": {
+      "title": "Estatísticas de Reprodução",
+      "subtitle": "Agregado a partir de registros disponíveis e dados enviados pelo proprietário, quando fornecidos.",
+      "empty": "Nenhuma estatística disponível.",
+      "totalProgeny": "Total de progênie",
+      "progenyStarted": "Progênie iniciada em competição",
+      "performanceEarners": "Ganhadores de performance (>$0)",
+      "totalOffspringEarnings": "Total de ganhos reportados da progênie",
+      "totalRegisteredProgeny": "Total de Progênie Registrada",
+      "progenyStartedInCompetition": "Progênie Iniciada em Competição",
+      "performanceEarnersCard": "Ganhadores de Performance",
+      "totalReportedOffspringEarnings": "Total de Ganhos Reportados da Progênie"
+    },
+    "notableProgeny": {
+      "title": "Progênie notável",
+      "showMore": "Mostrar mais registros",
+      "columns": {
+        "name": "Nome da Progênie",
+        "discipline": "Disciplina",
+        "achievement": "Conquista",
+        "year": "Ano",
+        "earnings": "Ganhos",
+        "associationEvent": "Associação/Evento"
+      }
+    },
+    "owners": {
+      "owner": "Proprietário",
+      "breedingManager": "Gerente de reprodução",
+      "breedingServiceProvider": "Provedor de serviço de reprodução",
+      "email": "E-mail",
+      "mobile": "Celular",
+      "phone": "Telefone",
+      "contact": "Contato",
+      "country": "País",
+      "social": {
+        "facebook": "Facebook",
+        "instagram": "Instagram",
+        "website": "Site"
+      }
+    },
+    "geneticHealth": {
+      "title": "Testes de Saúde Genética"
+    },
+    "colourTesting": {
+      "title": "Testes de Pelagem"
+    },
+    "media": {
+      "title": "Mídia",
+      "stallionFallback": "Garanhão",
+      "openImage": "Abrir imagem de mídia {index}",
+      "openVideoPreview": "Abrir pré-visualização do vídeo",
+      "videoThumbnail": "Miniatura do vídeo",
+      "video": "Vídeo",
+      "videoPreviewTitle": "Pré-visualização do vídeo",
+      "openVideoLink": "Abrir link do vídeo"
+    },
+    "videoReferences": {
+      "title": "Referências de Vídeo",
+      "subtitle": "Imagens apenas informativas. A disponibilidade varia conforme o registro e a temporada.",
+      "empty": "Nenhuma referência de vídeo fornecida.",
+      "embedUnavailable": "Link de vídeo disponível, mas não pode ser incorporado.",
+      "useLinkBelow": "Por favor, use o link abaixo.",
+      "referenceVideo": "Vídeo de referência",
+      "openVideoLink": "Abrir link do vídeo",
+      "iframeTitle": "Referência de vídeo"
+    },
+    "disciplineCoverage": {
+      "title": "Cobertura de Disciplinas",
+      "subtitle": "A inclusão indica participação ou registro documentado, não endosso ou classificação.",
+      "empty": "Nenhuma cobertura de disciplina fornecida."
+    },
+    "header": {
+      "unnamedStallion": "Garanhão Sem Nome",
+      "statusCountry": "Status: {status} · País: {country}",
+      "yearOfBirth": "Ano de nascimento",
+      "height": "Altura",
+      "registrationNumber": "Número de registro",
+      "breed": "Raça",
+      "color": "Pelagem",
+      "stallionLte": "Ganhos vitalícios",
+      "disciplineCoverage": "Cobertura de disciplinas",
+      "registryRegistries": "Registro/Registros",
+      "viewDocument": "Ver Documento"
+    },
+    "foundingBadge": "MEMBRO FUNDADOR",
+    "disclaimer": {
+      "ariaLabel": "Fontes das informações do perfil",
+      "text": "As informações contidas neste perfil foram obtidas de registros oficiais de associações e/ou fornecidas pelo proprietário ou haras. Clientes em potencial são incentivados a verificar todos os detalhes diretamente com o proprietário ou haras antes de tomar decisões de reprodução."
+    }
+  },
+  "resources": {
+    "directory": {
+      "title": "Diretório Comercial",
+      "empty": "Nenhum recurso encontrado.",
+      "columns": {
+        "country": "País",
+        "focus": "Foco",
+        "website": "Site",
+        "notes": "Notas",
+        "businessName": "Nome da Empresa"
+      },
+      "subtitle": "Este diretório é apenas informativo. A inclusão não constitui endosso.",
+      "filters": {
+        "heading": "Filtrar Serviços",
+        "resetAll": "Limpar Todos os Filtros",
+        "searchLabel": "Buscar",
+        "searchPlaceholder": "Buscar",
+        "countryLabel": "País",
+        "allCountries": "Todos os Países",
+        "breedLabel": "Raça",
+        "allBreeds": "Todas as Raças"
+      }
+    },
+    "associations": {
+      "title": "Associações e Registros",
+      "empty": "Nenhuma associação ou registro encontrado.",
+      "columns": {
+        "country": "País",
+        "associationName": "Nome da Associação",
+        "breedFocus": "Foco / Raça",
+        "website": "Site",
+        "notes": "Notas",
+        "businessName": "Nome da Empresa"
+      },
+      "subtitle": "Este diretório é apenas informativo. A inclusão não constitui endosso.",
+      "filters": {
+        "heading": "Filtrar Associações",
+        "resetAll": "Limpar Todos os Filtros",
+        "searchLabel": "Buscar",
+        "searchPlaceholder": "Digite o nome da associação...",
+        "countryLabel": "País",
+        "allCountries": "Todos os Países",
+        "breedLabel": "Raça",
+        "allBreeds": "Todas as Raças"
+      }
+    }
+  },
+  "submit": {
+    "beforeSubmit": {
+      "title": "Envio de Solicitação de Garanhão",
+      "intro": "Tornamos o processo de envio simples e transparente:",
+      "step1": "Preencha o formulário de solicitação do garanhão, incluindo informações de performance e progênie",
+      "step2": "Envie sua solicitação para revisão",
+      "cta": "Iniciar solicitação de garanhão"
+    },
+    "form": {
+      "title": "Solicitação de Registro de Garanhão",
+      "subtitle": "Por favor, preencha o formulário abaixo para registrar seu garanhão.",
+      "submitCta": "Enviar Garanhão para Revisão",
+      "submitAlert": "Por favor, preencha todos os campos obrigatórios.",
+      "validation": {
+        "required": "Obrigatório",
+        "diseaseTestingRequired": "Nota e arquivo de resultado obrigatórios"
+      },
+      "referenceLabel": "Referência",
+      "sections": {
+        "identity": {
+          "title": "Identidade do Garanhão",
+          "subtitle": "Informações básicas e status atual."
+        },
+        "registry": {
+          "title": "Registro Oficial",
+          "subtitle": "Verificado por meio de documentos de registro."
+        },
+        "performance": {
+          "title": "Registro de Performance",
+          "subtitle": "Inclua detalhes, juízes e ganhos.",
+          "addRow": "+ Adicionar Linha de Performance"
+        },
+        "progeny": {
+          "title": "Progênie Notável",
+          "subtitle": "Liste progênies notáveis e suas conquistas.",
+          "addRow": "+ Adicionar linha de progênie",
+          "remove": "Remover"
+        },
+        "breeding": {
+          "title": "Informações de Reprodução",
+          "subtitle": "Taxas de cobertura e estatísticas básicas."
+        },
+        "health": {
+          "title": "Testes de Saúde",
+          "subtitle": "Resultados obrigatórios do painel de doenças."
+        },
+        "media": {
+          "title": "Mídia",
+          "subtitle": "Máximo de 4 fotos e 1 vídeo."
+        }
+      },
+      "fields": {
+        "status": "Status *",
+        "registeredName": "Nome Registrado *",
+        "countryOfStanding": "País de Apresentação *",
+        "yearOfBirth": "Ano de nascimento (opcional)",
+        "height": "Altura",
+        "officialRegistryUrl": "URL do Registro Oficial",
+        "registrationNumber": "Número de Registro *",
+        "uploadRegistrationPapers": "Enviar Documentos de Registro * (Verificação de pedigree)",
+        "studFee": "Taxa de Cobertura (Referência) $ AUD/USD/EUR",
+        "guarantee": "Garantia",
+        "breedingStatistics": "Estatísticas de Reprodução",
+        "diseaseTesting": "Testes de Doenças (Obrigatório) *",
+        "colourTesting": "Testes de Pelagem (Opcional)",
+        "primaryHeroImage": "Imagem Principal *",
+        "videoReferenceUrl": "URL de Referência de Vídeo"
+      },
+      "placeholders": {
+        "fullName": "Nome Completo",
+        "year": "AAAA",
+        "height": "HH",
+        "registryUrl": "https://...",
+        "performanceYear": "Ano",
+        "event": "Evento",
+        "class": "Classe",
+        "result": "Resultado",
+        "refUrl": "URL de Ref.",
+        "notes": "Notas",
+        "judges": "Juízes",
+        "earnings": "Ganhos",
+        "progenyName": "Nome da progênie",
+        "association": "Associação",
+        "discipline": "Disciplina",
+        "referenceLink": "Link de referência",
+        "studFeeExample": "ex.: 1750 USD",
+        "breedingStats": "Contagem de potros, ganhadores de pontos, etc.",
+        "diseaseTesting": "ex.: painel 5 N/N",
+        "colourTesting": "ex.: E/E, a/a",
+        "videoUrl": "YouTube/Vimeo"
+      },
+      "statusOptions": {
+        "standing": "Em reprodução",
+        "deceased": "Falecido",
+        "notStanding": "Fora de reprodução",
+        "historicalReference": "Referência Histórica"
+      },
+      "guaranteeOptions": {
+        "none": "Nenhuma",
+        "lfg": "LFG",
+        "colour": "Pelagem"
+      },
+      "upload": {
+        "pdfOrImage": "Enviar PDF ou Imagem",
+        "diseaseResults": "Enviar Resultados de Doenças",
+        "colourResults": "Enviar Resultados de Pelagem",
+        "primaryImage": "Enviar Imagem Principal",
+        "galleryImage": "Imagem da Galeria {index}",
+        "optional": "(Opcional)"
+      }
+    }
+  },
+  "payment": {
+    "success": {
+      "title": "Envio recebido — obrigado",
+      "thankYou": "Obrigado por enviar o perfil do seu garanhão ao Leading Sires Registry.",
+      "reviewNotice": "Estamos revisando seu envio e entraremos em contato em até 48 horas para confirmar os detalhes finais antes de publicar o perfil.",
+      "questions": "Se tiver alguma dúvida, entre em contato conosco em"
+    },
+    "checkout": {
+      "secureCheckout": "Checkout Seguro",
+      "listingFee": "Taxa de Anúncio de Garanhão",
+      "listingType": "Tipo de Anúncio",
+      "listingTypeValue": "Anúncio Padrão de Performance",
+      "total": "Total",
+      "selectPaymentMethod": "Selecionar Método de Pagamento",
+      "creditCard": "Cartão de Crédito",
+      "paypal": "PayPal",
+      "cardNumber": "Número do Cartão",
+      "cardNumberPlaceholder": "0000 0000 0000 0000",
+      "expiry": "Validade (MM/AA)",
+      "expiryPlaceholder": "MM/AA",
+      "cvv": "CVV",
+      "cvvPlaceholder": "123",
+      "paypalRedirect": "Você será redirecionado ao PayPal para concluir o pagamento.",
+      "payAndSubmit": "Pagar e Enviar Solicitação"
+    }
+  },
+  "agents": {
+    "title": "Diretório de Agentes e Importadores / Exportadores",
+    "subtitle": "Listagem de referência de agentes de reprodução, provedores de logística e serviços de importação/exportação.",
+    "disclaimer": "As listagens são fornecidas apenas para referência. A inclusão não constitui endosso, verificação ou recomendação pelo Registro.",
+    "columns": {
+      "name": "Nome",
+      "serviceType": "Tipo de Serviço",
+      "region": "Região",
+      "specialisation": "Especialização",
+      "contact": "Contato",
+      "notes": "Notas"
+    }
+  },
+  "cms": {
+    "heroAriaLabel": "Hero",
+    "statFallbacks": {
+      "regionsCovered": "Regiões Cobertas",
+      "centralisedRegistry": "Registro Centralizado",
+      "breeds": "Raças",
+      "publicAccess": "Acesso Público"
+    },
+    "pricingCardHeading": "Anúncios de Garanhões"
+  },
+  "common": {
+    "empty": "—",
+    "website": "Site",
+    "required": "Obrigatório",
+    "optional": "Opcional",
+    "optionalParen": "(Opcional)",
+    "pagination": {
+      "showing": "Exibindo {start}–{end} de {total}",
+      "previous": "Anterior",
+      "next": "Próximo",
+      "pageOf": "Página {page} de {totalPages}",
+      "pageNumbersAria": "Números de página",
+      "pageAria": "Página {page}"
+    }
+  },
+  "language": {
+    "english": "English",
+    "portuguese": "Português (Brasil)"
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Notícias e atualizações do registro.",
+    "empty": "Nenhum artigo foi publicado ainda.",
+    "readMore": "Ler artigo",
+    "backToBlog": "Voltar ao blog"
+  }
+}

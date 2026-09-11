@@ -1,0 +1,590 @@
+{
+  "nav": {
+    "brand": "Leading Sires",
+    "registry": "Registry",
+    "stallionDirectory": "Stallion Directory",
+    "mareDirectory": "Mare Directory",
+    "blog": "Blog",
+    "about": "About",
+    "pricing": "Pricing",
+    "resources": "Resources",
+    "commercialDirectory": "Commercial Directory",
+    "associationsRegistries": "Associations & Registries",
+    "login": "Login",
+    "language": "Language",
+    "menu": "Menu",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "footer": {
+    "brandTitle": "Leading Sires Registry",
+    "tagline": "Performance stallion reference platform",
+    "breeds": "Quarter Horses | Paints | Appaloosas",
+    "regionsLine1": "Australia | New Zealand | Europe | Canada",
+    "regionsLine2": "North & South America",
+    "linksHeading": "Links",
+    "submitListing": "Submit a Listing",
+    "contactHeading": "Contacts Us",
+    "copyright": "© 2026 Leading Sires Registry | Records may include active, historical, or deceased stallions for pedigree and reference purposes.",
+    "termsOfUse": "Terms of Use",
+    "privacyPolicy": "Privacy Policy"
+  },
+  "stallions": {
+    "title": "Stallion Directory",
+    "metaDescription": "Browse performance stallions — pedigree, performance, progeny and breeding details on Leading Sires Registry.",
+    "noResults": "No results found.",
+    "filters": {
+      "keywordLabel": "Keyword Search (Stallion)",
+      "keywordPlaceholder": "Enter stallion name...",
+      "countryLabel": "Country",
+      "allCountries": "All Countries",
+      "breedLabel": "Breed",
+      "allBreeds": "All Breeds",
+      "breeds": {
+        "quarterHorse": "Quarter Horse",
+        "paint": "Paint",
+        "appaloosa": "Appaloosa"
+      },
+      "semenAvailabilityLabel": "Semen Availability",
+      "allOptions": "All options",
+      "availability": {
+        "methodNotDisclosed": "Method not disclosed",
+        "fresh": "Fresh",
+        "chilled": "Chilled",
+        "cooled": "Cooled",
+        "frozen": "Frozen",
+        "icsi": "ICSI",
+        "combination": "Combination (chilled + frozen)",
+        "liveCover": "Live cover"
+      },
+      "resetAll": "Reset All Filters"
+    },
+    "bloodline": {
+      "heading": "Horse Search",
+      "hint": "Search pedigrees for specific horses. Results must match every horse you include and none you exclude.",
+      "conditionLabel": "Horse {number}",
+      "remove": "Remove this horse",
+      "horseNameLabel": "Horse name",
+      "horseNamePlaceholder": "Search ancestor name...",
+      "generationLabel": "Generation",
+      "anyGeneration": "Any generation",
+      "generationOption": {
+        "1": "1 — Sire / Dam",
+        "2": "2 — Grandparents",
+        "3": "3 — Great-grandparents",
+        "4": "4 — 2nd great-grandparents",
+        "5": "5 — 3rd great-grandparents"
+      },
+      "lineLabel": "Line",
+      "sireLine": "Sire side",
+      "damLine": "Dam side",
+      "addAnother": "Add another horse",
+      "matchLabel": "Match",
+      "include": "Include",
+      "exclude": "Exclude"
+    },
+    "table": {
+      "photo": "Photo",
+      "stallion": "Stallion",
+      "pedigree": "Pedigree",
+      "breed": "Breed",
+      "disciplines": "Disciplines",
+      "country": "Country",
+      "pedigreeSeparator": "×"
+    },
+    "directoryMatch": {
+      "matchedAncestor": "Matched ancestor",
+      "sireLine": "Sire line",
+      "damLine": "Dam line"
+    },
+    "countries": {
+      "australia": "Australia",
+      "austria": "Austria",
+      "brazil": "Brazil",
+      "canada": "Canada",
+      "colombia": "Colombia",
+      "germany": "Germany",
+      "italy": "Italy",
+      "mexico": "Mexico",
+      "newZealand": "New Zealand",
+      "poland": "Poland",
+      "portugal": "Portugal",
+      "uk": "UK",
+      "usa": "USA"
+    }
+  },
+  "mares": {
+    "title": "Mare Directory",
+    "metaDescription": "Browse embryo transfer donor mares — pedigree, performance, progeny and ET program details on Leading Sires Registry.",
+    "noResults": "No results found.",
+    "filters": {
+      "filterHeading": "Filter Mares",
+      "showing": "Showing {filtered} of {total} mares",
+      "searchLabel": "Search",
+      "keywordPlaceholder": "Search by name…",
+      "disciplineLabel": "Discipline",
+      "allDisciplines": "All disciplines",
+      "colorLabel": "Color",
+      "allColors": "All colors",
+      "geneticProfileLabel": "Genetic profile",
+      "allGeneticProfiles": "All profiles",
+      "etStatusLabel": "ET Status",
+      "allEtStatuses": "All statuses",
+      "etStatus": {
+        "donor": "Donor",
+        "seasonal": "Seasonal",
+        "deceased": "Deceased"
+      },
+      "embryoAvailabilityLabel": "Embryo Availability",
+      "allEmbryoAvailability": "All options",
+      "embryoAvailability": {
+        "fresh": "Fresh",
+        "frozen": "Frozen",
+        "both": "Fresh & Frozen"
+      }
+    }
+  },
+  "profile": {
+    "sectionNav": {
+      "overview": "Overview",
+      "pedigree": "Pedigree",
+      "performance": "Performance",
+      "breedingStatistics": "Breeding Statistics",
+      "notableProgeny": "Notable Progeny",
+      "progenyRecord": "Progeny Record",
+      "etProgram": "ET Program",
+      "geneticTesting": "Genetic Testing",
+      "colorTesting": "Color Testing",
+      "media": "Media"
+    },
+    "hero": {
+      "unnamedStallion": "Unnamed Stallion",
+      "unknownSire": "Unknown Sire",
+      "unknownDam": "Unknown Dam",
+      "status": "Status",
+      "country": "Country",
+      "registry": "Registry",
+      "registrationNumberShort": "Reg #",
+      "yearOfBirth": "Year of birth",
+      "stallionLte": "Life time earnings",
+      "height": "Height",
+      "breed": "Breed",
+      "color": "Color",
+      "disciplineCoverage": "Discipline coverage"
+    },
+    "overview": {
+      "title": "Overview"
+    },
+    "breedingSummary": {
+      "title": "Breeding Summary"
+    },
+    "pedigree": {
+      "title": "Pedigree",
+      "legendMale": "Male",
+      "legendFemale": "Female",
+      "legendAnnotation": "*Annotation",
+      "empty": "Pedigree information has not been added for this stallion yet.",
+      "swipeHint": "Swipe horizontally to view pedigree",
+      "scrollHint": "Scroll horizontally to view all generations",
+      "removeGeneration": "Remove generation",
+      "addGeneration": "Add generation",
+      "generation": "Generation {number}",
+      "otherRegistrations": "Other registrations",
+      "showAdditionalRegistrations": "Show additional registrations",
+      "association": "Association",
+      "country": "Country",
+      "registration": "Registration"
+    },
+    "performance": {
+      "title": "Performance",
+      "showMore": "Show more performances",
+      "columns": {
+        "event": "Event",
+        "year": "Year",
+        "month": "Month",
+        "discipline": "Discipline",
+        "class": "Class",
+        "achievement": "Achievement",
+        "score": "Score",
+        "association": "Association",
+        "level": "Level",
+        "earnings": "Earnings"
+      }
+    },
+    "racingRecord": {
+      "title": "Racing Record",
+      "showMore": "Show more records",
+      "summary": {
+        "careerEarnings": "Career Earnings",
+        "starts": "Starts",
+        "firsts": "Firsts",
+        "seconds": "Seconds",
+        "thirds": "Thirds",
+        "speedIndex": "Speed Index"
+      },
+      "columns": {
+        "race": "Race",
+        "year": "Year",
+        "track": "Track",
+        "distance": "Distance",
+        "position": "Position",
+        "speedIndex": "Speed Index",
+        "earnings": "Earnings"
+      }
+    },
+    "foalCrop": {
+      "title": "Foal crop",
+      "totalFoals": "Total Foals",
+      "totalYears": "Total Years",
+      "chartAxis": "Foals",
+      "tooltipYear": "Year {year}",
+      "tooltipFoals": "Foals"
+    },
+    "breedingDetails": {
+      "title": "Breeding Details",
+      "availability": "Breeding Availability",
+      "studFee": "Stud Fee",
+      "guarantees": "Breeding Guarantees"
+    },
+    "etDetails": {
+      "title": "ET Program",
+      "contactOwnerNote": "For full program details including recipient mare arrangements, please contact the owner directly",
+      "status": "Status",
+      "clinic": "Reproductive Clinic",
+      "embryoFee": "Embryo Fee",
+      "flushHistory": "Flush History Summary",
+      "availability": "Breeding Availability",
+      "availabilityValues": {
+        "fresh": "Fresh",
+        "frozen": "Frozen"
+      },
+      "lastVerified": "Last Verified",
+      "unverifiedBadge": "Not verified in the last 12 months",
+      "countryAvailability": "Country availability",
+      "internationalAvailability": "International availability"
+    },
+    "breedingStatistics": {
+      "title": "Breeding Statistics",
+      "subtitle": "Aggregated from available records and owner-submitted data where provided.",
+      "empty": "No statistics available.",
+      "totalProgeny": "Total progeny",
+      "progenyStarted": "Progeny started in competition",
+      "performanceEarners": "Performance earners (>$0)",
+      "totalOffspringEarnings": "Total reported offspring earnings",
+      "totalRegisteredProgeny": "Total Registered Progeny",
+      "progenyStartedInCompetition": "Progeny Started in Competition",
+      "performanceEarnersCard": "Performance Earners",
+      "totalReportedOffspringEarnings": "Total Reported Offspring Earnings"
+    },
+    "notableProgeny": {
+      "title": "Notable progeny",
+      "showMore": "Show more records",
+      "columns": {
+        "name": "Progeny Name",
+        "discipline": "Discipline",
+        "achievement": "Achievement",
+        "year": "Year",
+        "earnings": "Earnings",
+        "associationEvent": "Association/Event"
+      }
+    },
+    "owners": {
+      "owner": "Owner",
+      "breedingManager": "Breeding manager",
+      "breedingServiceProvider": "Breeding service provider",
+      "email": "Email",
+      "mobile": "Mobile",
+      "phone": "Phone",
+      "contact": "Contact",
+      "country": "Country",
+      "social": {
+        "facebook": "Facebook",
+        "instagram": "Instagram",
+        "website": "Website"
+      }
+    },
+    "geneticHealth": {
+      "title": "Genetic Health Testing"
+    },
+    "colourTesting": {
+      "title": "Colour Testing"
+    },
+    "media": {
+      "title": "Media",
+      "stallionFallback": "Stallion",
+      "openImage": "Open media image {index}",
+      "openVideoPreview": "Open video preview",
+      "videoThumbnail": "Video thumbnail",
+      "video": "Video",
+      "videoPreviewTitle": "Video preview",
+      "openVideoLink": "Open video link"
+    },
+    "videoReferences": {
+      "title": "Video References",
+      "subtitle": "Informational footage only. Availability varies by record and season.",
+      "empty": "No video references provided.",
+      "embedUnavailable": "Video link available but cannot be embedded.",
+      "useLinkBelow": "Please use the link below.",
+      "referenceVideo": "Reference video",
+      "openVideoLink": "Open video link",
+      "iframeTitle": "Video reference"
+    },
+    "disciplineCoverage": {
+      "title": "Discipline Coverage",
+      "subtitle": "Inclusion indicates recorded participation or registration, not endorsement or ranking.",
+      "empty": "No discipline coverage provided."
+    },
+    "header": {
+      "unnamedStallion": "Unnamed Stallion",
+      "statusCountry": "Status: {status} · Country: {country}",
+      "yearOfBirth": "Year of birth",
+      "height": "Height",
+      "registrationNumber": "Registration number",
+      "breed": "Breed",
+      "color": "Color",
+      "stallionLte": "Life time earnings",
+      "disciplineCoverage": "Discipline coverage",
+      "registryRegistries": "Registry/Registries",
+      "viewDocument": "View Document"
+    },
+    "foundingBadge": "FOUNDING MEMBER",
+    "disclaimer": {
+      "ariaLabel": "Profile information sources",
+      "text": "Information contained in this profile has been sourced from official association records and/or provided by the owner or standing station. Prospective clients are encouraged to verify all details directly with the owner or standing station prior to making breeding decisions."
+    }
+  },
+  "resources": {
+    "directory": {
+      "title": "Commercial Directory",
+      "empty": "No resources found.",
+      "columns": {
+        "country": "Country",
+        "focus": "Focus",
+        "website": "Website",
+        "notes": "Notes",
+        "businessName": "Business Name"
+      },
+      "subtitle": "This directory is informational only. Inclusion does not constitute endorsement.",
+      "filters": {
+        "heading": "Filter Services",
+        "resetAll": "Reset All Filters",
+        "searchLabel": "Search",
+        "searchPlaceholder": "Search",
+        "countryLabel": "Country",
+        "allCountries": "All Countries",
+        "breedLabel": "Breed",
+        "allBreeds": "All Breeds"
+      }
+    },
+    "associations": {
+      "title": "Associations & Registries",
+      "empty": "No associations or registries found.",
+      "columns": {
+        "country": "Country",
+        "associationName": "Association Name",
+        "breedFocus": "Focus / Breed",
+        "website": "Website",
+        "notes": "Notes",
+        "businessName": "Business Name"
+      },
+      "subtitle": "This directory is informational only. Inclusion does not constitute endorsement.",
+      "filters": {
+        "heading": "Filter Associations",
+        "resetAll": "Reset All Filters",
+        "searchLabel": "Search",
+        "searchPlaceholder": "Enter association name...",
+        "countryLabel": "Country",
+        "allCountries": "All Countries",
+        "breedLabel": "Breed",
+        "allBreeds": "All Breeds"
+      }
+    }
+  },
+  "submit": {
+    "beforeSubmit": {
+      "title": "Stallion Request Submission",
+      "intro": "We've made the submission process simple and transparent:",
+      "step1": "Fill out the stallion request form, including performance and progeny information",
+      "step2": "Submit your request for review",
+      "cta": "Start stallion request"
+    },
+    "form": {
+      "title": "Stallion Registration Request",
+      "subtitle": "Please fill out the form below to register your stallion.",
+      "submitCta": "Submit Stallion for Review",
+      "submitAlert": "Please complete all required fields.",
+      "validation": {
+        "required": "Required",
+        "diseaseTestingRequired": "Note & result file required"
+      },
+      "referenceLabel": "Reference",
+      "sections": {
+        "identity": {
+          "title": "Stallion Identity",
+          "subtitle": "Basic information and current status."
+        },
+        "registry": {
+          "title": "Official Registry",
+          "subtitle": "Verified via registration papers."
+        },
+        "performance": {
+          "title": "Performance Record",
+          "subtitle": "Include details, judges, and earnings.",
+          "addRow": "+ Add Performance Row"
+        },
+        "progeny": {
+          "title": "Notable Progeny",
+          "subtitle": "List notable offspring and their achievements.",
+          "addRow": "+ Add progeny row",
+          "remove": "Remove"
+        },
+        "breeding": {
+          "title": "Breeding Information",
+          "subtitle": "Stud fees and basic statistics."
+        },
+        "health": {
+          "title": "Health Testing",
+          "subtitle": "Compulsory disease panel results."
+        },
+        "media": {
+          "title": "Media",
+          "subtitle": "Maximum 4 photos and 1 video."
+        }
+      },
+      "fields": {
+        "status": "Status *",
+        "registeredName": "Registered Name *",
+        "countryOfStanding": "Country of Standing *",
+        "yearOfBirth": "Year of birth (optional)",
+        "height": "Height",
+        "officialRegistryUrl": "Official Registry Record URL",
+        "registrationNumber": "Registration Number *",
+        "uploadRegistrationPapers": "Upload Registration Papers * (Pedigree verification)",
+        "studFee": "Stud Fee (Reference) $ AUD/USD/EUR",
+        "guarantee": "Guarantee",
+        "breedingStatistics": "Breeding Statistics",
+        "diseaseTesting": "Disease Testing (Compulsory) *",
+        "colourTesting": "Colour Testing (Optional)",
+        "primaryHeroImage": "Primary Hero Image *",
+        "videoReferenceUrl": "Video Reference URL"
+      },
+      "placeholders": {
+        "fullName": "Full Name",
+        "year": "YYYY",
+        "height": "HH",
+        "registryUrl": "https://...",
+        "performanceYear": "Year",
+        "event": "Event",
+        "class": "Class",
+        "result": "Result",
+        "refUrl": "Ref URL",
+        "notes": "Notes",
+        "judges": "Judges",
+        "earnings": "Earnings",
+        "progenyName": "Progeny name",
+        "association": "Association",
+        "discipline": "Discipline",
+        "referenceLink": "Reference link",
+        "studFeeExample": "e.g. 1750 USD",
+        "breedingStats": "Foal counts, point earners, etc.",
+        "diseaseTesting": "e.g. 5-panel N/N",
+        "colourTesting": "e.g. E/E, a/a",
+        "videoUrl": "YouTube/Vimeo"
+      },
+      "statusOptions": {
+        "standing": "Standing",
+        "deceased": "Deceased",
+        "notStanding": "Not Standing",
+        "historicalReference": "Historical Reference"
+      },
+      "guaranteeOptions": {
+        "none": "None",
+        "lfg": "LFG",
+        "colour": "Colour"
+      },
+      "upload": {
+        "pdfOrImage": "Upload PDF or Image",
+        "diseaseResults": "Upload Disease Results",
+        "colourResults": "Upload Colour Results",
+        "primaryImage": "Upload Primary Image",
+        "galleryImage": "Gallery Image {index}",
+        "optional": "(Optional)"
+      }
+    }
+  },
+  "payment": {
+    "success": {
+      "title": "Submission received — thank you",
+      "thankYou": "Thank you for submitting your stallion profile to the Leading Sires Registry.",
+      "reviewNotice": "We're currently reviewing your submission and will contact you within 48 hours to confirm the final details before publishing the profile.",
+      "questions": "If you have any questions, contact us at"
+    },
+    "checkout": {
+      "secureCheckout": "Secure Checkout",
+      "listingFee": "Stallion Listing Fee",
+      "listingType": "Listing Type",
+      "listingTypeValue": "Standard Performance Listing",
+      "total": "Total",
+      "selectPaymentMethod": "Select Payment Method",
+      "creditCard": "Credit Card",
+      "paypal": "PayPal",
+      "cardNumber": "Card Number",
+      "cardNumberPlaceholder": "0000 0000 0000 0000",
+      "expiry": "Expiry (MM/YY)",
+      "expiryPlaceholder": "MM/YY",
+      "cvv": "CVV",
+      "cvvPlaceholder": "123",
+      "paypalRedirect": "You will be redirected to PayPal to complete your payment.",
+      "payAndSubmit": "Pay & Submit Request"
+    }
+  },
+  "agents": {
+    "title": "Agents & Importers / Exporters Directory",
+    "subtitle": "Reference listing of breeding agents, logistics providers, and import/export services.",
+    "disclaimer": "Listings are provided for reference only. Inclusion does not constitute endorsement, verification, or recommendation by the Registry.",
+    "columns": {
+      "name": "Name",
+      "serviceType": "Service Type",
+      "region": "Region",
+      "specialisation": "Specialisation",
+      "contact": "Contact",
+      "notes": "Notes"
+    }
+  },
+  "cms": {
+    "heroAriaLabel": "Hero",
+    "statFallbacks": {
+      "regionsCovered": "Regions Covered",
+      "centralisedRegistry": "Centralised Registry",
+      "breeds": "Breeds",
+      "publicAccess": "Public Access"
+    },
+    "pricingCardHeading": "Stallion Listings"
+  },
+  "common": {
+    "empty": "—",
+    "website": "Website",
+    "required": "Required",
+    "optional": "Optional",
+    "optionalParen": "(Optional)",
+    "pagination": {
+      "showing": "Showing {start}–{end} of {total}",
+      "previous": "Previous",
+      "next": "Next",
+      "pageOf": "Page {page} of {totalPages}",
+      "pageNumbersAria": "Page numbers",
+      "pageAria": "Page {page}"
+    }
+  },
+  "language": {
+    "english": "English",
+    "portuguese": "Português (Brasil)"
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "News and updates from the registry.",
+    "empty": "No articles have been published yet.",
+    "readMore": "Read article",
+    "backToBlog": "Back to blog"
+  }
+}

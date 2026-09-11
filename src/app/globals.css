@@ -1,0 +1,425 @@
+@import "tailwindcss";
+
+:root {
+  --bg-main: #000000;
+  --bg-surface: #121214;
+
+  --text-main: #f4f4f2;
+  --text-muted: #a1a1aa;
+
+  /* 🔥 NEW LUXURY GOLD SYSTEM */
+  --gold: #b08d57;        /* main muted gold */
+  --gold-light: #d4b679;  /* highlight */
+  --gold-dark: #6b5736;   /* borders / dividers */
+
+  /* Footer / muted system text */
+  --footer-muted: #727272;
+  --gold-accent: #c09a64;
+}
+
+@theme {
+  --font-sans: var(--font-manrope), ui-sans-serif, system-ui, sans-serif;
+  --font-poppins: var(--font-poppins), sans-serif;
+
+  /* Colour palette (from Figma) */
+  --color-surface: #121212;     /* Black 2 — card/tile backgrounds */
+  --color-line: #262626;        /* Black 3 — card borders, divider lines */
+  --color-gold-dark: #2c271f;   /* Pedigree glass card border, badge borders */
+
+  --color-grey-2: #727272;      /* Muted labels, footer text, column headers */
+  --color-grey: #aaaaaa;        /* Supporting text, overview body, dates */
+  --color-gold: #c09a64;        /* Accent — status values, email, earnings */
+  --color-gold-alt: #d4a96a;    /* Breeding service provider name */
+
+  --color-nav-border: rgba(250, 225, 128, 0.16); /* Nav bottom border */
+  --color-nav-bg: rgba(0, 0, 0, 0.6);            /* Nav background (blur) */
+
+  --color-pedigree-female: rgba(253, 174, 235, 0.17); /* Granddam cells */
+  --color-gold-tile: rgba(212, 169, 106, 0.14);       /* Earnings highlight tile */
+}
+
+/* Gradients (not colors — exposed as custom utilities) */
+:root {
+  --gradient-glass-card: linear-gradient(
+    163deg,
+    rgba(255, 255, 255, 0.045),
+    rgba(255, 255, 255, 0.015)
+  );
+  --gradient-hero-overlay: linear-gradient(
+    91deg,
+    rgba(0, 0, 0, 0.9) 2.7%,
+    rgba(0, 0, 0, 0.703) 39.7%,
+    rgba(0, 0, 0, 0) 71.2%
+  );
+}
+
+@utility bg-glass-card {
+  background-image: var(--gradient-glass-card);
+}
+
+@utility bg-hero-overlay {
+  background-image: var(--gradient-hero-overlay);
+}
+
+
+html,
+body {
+  font-family: var(--font-manrope), ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  background: #000000;
+  color: var(--text-main);
+}
+
+/* ── White profile theme — donor mare pages (Figma node 645:6410,
+   "Mare Profile UX Spec 17 Jul 2026"). Scoped to `.profile-light`;
+   stallion pages never match these rules.
+
+   Key point: cards, tables, pedigree and pills stay DARK exactly as on the
+   black profile. Only the page canvas and text sitting directly on it change. */
+.profile-light {
+  background-color: #ffffff;
+  color: #121212;
+}
+
+/* Section headings: gold on black, near-black on white. */
+.profile-light .profile-section-title {
+  color: #121212;
+}
+
+/* Text rendered directly on the white canvas. */
+.profile-light .profile-canvas-text {
+  color: #121212;
+}
+.profile-light .profile-canvas-muted {
+  color: #727272;
+}
+/* Status / country values use gold-dark on white, not gold. */
+.profile-light .profile-canvas-accent {
+  color: #2c271f;
+}
+
+/* Tab bar: black labels, grey underline (spec: #aaa, not #262626).
+   The opacity class sits on the <nav> itself, so set colour on the element;
+   the tab buttons inherit it. */
+.profile-light .profile-tabbar,
+.profile-light .profile-tabbar .text-white,
+.profile-light .profile-tabbar .text-white\/85 {
+  color: #121212;
+}
+.profile-light .profile-tab-underline {
+  border-color: #aaaaaa;
+}
+
+/* Pedigree generation headers sit on the white page above the dark table. */
+.profile-light .profile-pedigree-headers {
+  color: #121212;
+}
+
+/* Section body copy that sits on the canvas rather than inside a card. */
+.profile-light .profile-canvas-body {
+  color: #121212;
+}
+
+/* ET info banner: light grey with dark text (inverse of the black profile). */
+.profile-light .profile-et-note {
+  background-color: #eaeaea;
+  border-color: #eaeaea;
+  color: #121212;
+}
+
+/* Pedigree tinted cells are solid #4A2944 on the white profile (spec),
+   not the semi-transparent tint used on the black profile. */
+.profile-light .bg-pedigree-female {
+  background-color: #4a2944;
+}
+
+/* Hero sits on the white page — no dark band or overlay (spec: node 645).
+   Scoped to the hero: tables keep `bg-black` per spec §3. */
+.profile-light .profile-hero,
+.profile-light .profile-hero .bg-black {
+  background-color: #ffffff;
+}
+
+/* Owner / contact rows and misc muted copy sitting on the white canvas. */
+.profile-light .profile-canvas-body,
+.profile-light .profile-canvas-body * {
+  color: #121212;
+}
+
+/* ---------------------------------------------------------------------------
+   Blog body content.
+
+   Tailwind's preflight strips list markers and heading sizes, so rich text
+   needs its typography restored explicitly. The same class is applied to the
+   Tiptap editing surface and to the rendered post, so an author sees exactly
+   what a reader will get.
+   --------------------------------------------------------------------------- */
+.blog-body h2 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin-top: 1.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.blog-body h3 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.blog-body h4 {
+  font-size: 1.075rem;
+  line-height: 1.6rem;
+  font-weight: 600;
+  color: #f1f5f9;
+  margin-top: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.blog-body p {
+  margin-bottom: 0.9rem;
+  line-height: 1.75;
+}
+
+.blog-body ul,
+.blog-body ol {
+  margin: 0 0 0.9rem 0;
+  padding-left: 1.5rem;
+}
+
+.blog-body ul {
+  list-style-type: disc;
+}
+
+.blog-body ol {
+  list-style-type: decimal;
+}
+
+.blog-body li {
+  margin-bottom: 0.35rem;
+  line-height: 1.7;
+}
+
+.blog-body li > ul,
+.blog-body li > ol {
+  margin-top: 0.35rem;
+  margin-bottom: 0.35rem;
+}
+
+.blog-body a {
+  color: #38bdf8;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.blog-body a:hover {
+  color: #7dd3fc;
+}
+
+.blog-body strong {
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.blog-body em {
+  font-style: italic;
+}
+
+.blog-body u {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+/* Tiptap wraps list item content in <p>, so list rows need the paragraph
+   margin removed or every bullet gains a blank line. */
+.blog-body li > p {
+  margin-bottom: 0;
+}
+
+.blog-body blockquote {
+  margin: 1.25rem 0;
+  padding: 0.25rem 0 0.25rem 1rem;
+  border-left: 3px solid #334155;
+  color: #cbd5e1;
+  font-style: italic;
+}
+
+.blog-body blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+.blog-body > *:last-child {
+  margin-bottom: 0;
+}
+
+/* ---------------------------------------------------------------------------
+   BlockNote editor shell.
+
+   BlockNote ships its own dark theme; these rules only settle it into the
+   admin panel's surface colours and give the editing area sensible padding.
+   --------------------------------------------------------------------------- */
+.blog-editor-shell .bn-container {
+  background-color: transparent;
+}
+
+.blog-editor-shell .bn-editor {
+  background-color: transparent;
+  padding: 0.75rem 1rem;
+  min-height: 280px;
+}
+
+/* The editor renders block content with the same typography as the published
+   post, so what an author sees matches what a reader gets. */
+.blog-editor-shell .bn-block-content h1,
+.blog-editor-shell .bn-block-content h2 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 600;
+}
+
+.blog-editor-shell .bn-block-content h3 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+}
+
+/* BlockNote's serialised HTML keeps its inline-content wrapper inside list
+   items; strip the paragraph margin so bullets are not double-spaced. */
+.blog-body li > p.bn-inline-content {
+  margin-bottom: 0;
+}
+
+/* In-body images: constrained to the column and lazily loaded. Unlike the
+   featured image these are plain <img> tags in serialised HTML, so next/image
+   optimisation does not apply to them. */
+.blog-body img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+  margin: 1.25rem 0;
+}
+
+.blog-body figure {
+  margin: 1.25rem 0;
+}
+
+.blog-body figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.8125rem;
+  color: #94a3b8;
+}
+
+/* A deliberate blank line still needs to occupy a line's height once the
+   placeholder character BlockNote emits has been stripped. */
+.blog-body p:empty::before {
+  content: "";
+  display: inline-block;
+  height: 1em;
+}
+
+/* Block types the audit found rendering unstyled: code, tables, checklists. */
+.blog-body pre {
+  margin: 1.25rem 0;
+  padding: 0.875rem 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid #1e293b;
+  background-color: #0b1220;
+  overflow-x: auto;
+}
+
+.blog-body pre code {
+  background: none;
+  padding: 0;
+  font-size: 0.8125rem;
+  line-height: 1.6;
+  color: #e2e8f0;
+}
+
+.blog-body code {
+  padding: 0.1rem 0.35rem;
+  border-radius: 0.25rem;
+  background-color: #1e293b;
+  font-size: 0.875em;
+  color: #e2e8f0;
+}
+
+/* A wide table must scroll inside its own container rather than stretching
+   the article column on a phone. */
+.blog-table-wrap {
+  margin: 1.25rem 0;
+  overflow-x: auto;
+}
+
+.blog-body table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.875rem;
+}
+
+.blog-body th,
+.blog-body td {
+  border: 1px solid #1e293b;
+  padding: 0.5rem 0.75rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+.blog-body th {
+  background-color: #0f172a;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.blog-body td > p,
+.blog-body th > p {
+  margin-bottom: 0;
+}
+
+/* Checklist items keep their checkbox but lose the bullet. */
+.blog-body li[data-checked] {
+  list-style: none;
+  margin-left: -1.15rem;
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+}
+
+.blog-body li[data-checked] input[type="checkbox"] {
+  margin: 0;
+  accent-color: #38bdf8;
+}
+
+.blog-body s {
+  text-decoration: line-through;
+}
+
+/*
+ * Horizontally scrolling directory tables. The mobile Associations & Registries
+ * frame (Figma 411:4012) draws a visible scrollbar beneath the table: an 11px
+ * pill with a #121212 track and a #727272 thumb.
+ */
+.table-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-grey-2) var(--color-surface);
+}
+
+.table-scroll::-webkit-scrollbar {
+  height: 11px;
+}
+
+.table-scroll::-webkit-scrollbar-track {
+  background-color: var(--color-surface);
+  border-radius: 5.5px;
+}
+
+.table-scroll::-webkit-scrollbar-thumb {
+  background-color: var(--color-grey-2);
+  border-radius: 5.5px;
+}
